@@ -15,6 +15,13 @@
     <main>
       <section id="activities-container">
         <h3>Available Activities</h3>
+        <div id="filters-bar" class="filters-bar">
+          <input type="text" id="search-input" placeholder="Buscar actividad..." />
+          <select id="sort-select">
+            <option value="asc">Ordenar A-Z</option>
+            <option value="desc">Ordenar Z-A</option>
+          </select>
+        </div>
         <div id="activities-list">
           <!-- Activities will be loaded here -->
           <p>Loading activities...</p>
